@@ -49,4 +49,9 @@ public class player : MonoBehaviour
 
         GetComponent<Transform>().position += add_position;
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "")
+    }
 }
