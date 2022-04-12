@@ -8,7 +8,8 @@ TagManager:
   - Enemy
   - DrippingAcid
   - Ouchies
-  - Gifts
+  - Treat
+  - Weights
   layers:
   - Default
   - TransparentFX
