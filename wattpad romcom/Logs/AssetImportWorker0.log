@@ -168,3 +168,4 @@ Received Import Request.
 Start importing Assets/Script/player.cs using Guid(bbdb595e1e2bd1b41ae846fdfff689f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7e94d85c62f801fde2bd7044de16b5') in 0.020928 seconds 
   Import took 0.026754 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
