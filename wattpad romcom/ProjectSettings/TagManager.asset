@@ -9,6 +9,7 @@ TagManager:
   - DrippingAcid
   - Ouchies
   - Gifts
+  - final door
   layers:
   - Default
   - TransparentFX

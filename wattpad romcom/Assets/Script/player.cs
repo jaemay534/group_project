@@ -8,6 +8,13 @@ public class player : MonoBehaviour
     private Rigidbody rigid_body;
     private Vector3 startPosition;
 
+    // ints for keys and Gifts
+
+    public int gift_weight_count = 0;
+    public int gift_necklace_count = 0;
+    public int gift_bread_count = 0;
+    public int keys_count = 0;
+
 
     // Start is called before the first frame update
     void Start()
@@ -52,6 +59,22 @@ public class player : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "")
+        //for keys and Gifts
+        /*
+        if(other.gameObject.tag == "Keys")
+        {
+            keys++;
+            print("Keys: " + keys);
+            other.gameObject.SetActive(false);
+        }
+        */
+
+        // for npcs and final door
+
+        if(other.gameObject.tag == "final door")
+        {
+            print("I can't let you pass without the keys");
+        }
+
     }
 }
