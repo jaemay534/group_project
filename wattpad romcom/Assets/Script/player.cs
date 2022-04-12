@@ -68,6 +68,30 @@ public class player : MonoBehaviour
             other.gameObject.SetActive(false);
         }
         */
+        /*
+        if(other.gameObject.tag == "Treat")
+        {
+            gift_bread_count++;
+            print("Treat: " + Treat);
+            other.gameObject.SetActive(false);
+        }
+
+         if(other.gameObject.tag == "Weight")
+        {
+            gift_weight_count++;
+            print("Weight: " + Treat);
+            other.gameObject.SetActive(false);
+        }
+        */
+        /*
+        // for necklace - not made yet
+          if(other.gameObject.tag == "Weight")
+        {
+            gift_weight_count++;
+            print("Weight: " + Treat);
+            other.gameObject.SetActive(false);
+        }
+        */
 
         // for npcs and final door
 
