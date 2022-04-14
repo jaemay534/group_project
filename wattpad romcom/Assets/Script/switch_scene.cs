@@ -9,12 +9,14 @@ public class switch_scene : MonoBehaviour
     public GameObject player;
     public GameObject mainCamera;
     private int currentScene;
+    public int keys_lock;
 
     public static switch_scene instance;
 
     // Start is called before the first frame update
     void Start()
     {
+        
         instance = this;
         DontDestroyOnLoad(player);
         DontDestroyOnLoad(mainCamera);

@@ -450,7 +450,7 @@ Transform:
   - {fileID: 649696037}
   - {fileID: 1684512381}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &360021106
 PrefabInstance:
@@ -2902,6 +2902,7 @@ MonoBehaviour:
   keys: {fileID: 938896518394347824}
   player: {fileID: 2492472109625325161, guid: 60784a3bf3dd454408de59a1075273f9, type: 3}
   mainCamera: {fileID: 1176363002}
+  keys_lock: 2
 --- !u!1001 &5587140579790447609
 PrefabInstance:
   m_ObjectHideFlags: 0
