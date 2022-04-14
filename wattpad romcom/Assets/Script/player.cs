@@ -71,21 +71,21 @@ public class player : MonoBehaviour
             other.gameObject.SetActive(false);
         }
         */
-        /*
+        
         if(other.gameObject.tag == "Treat")
         {
             gift_bread_count++;
-            print("Treat: " + Treat);
+            print("Treat: " + gift_bread_count);
             other.gameObject.SetActive(false);
         }
 
-         if(other.gameObject.tag == "Weight")
+         if(other.gameObject.tag == "Weights")
         {
             gift_weight_count++;
-            print("Weight: " + Treat);
+            print("Weight: " + gift_weight_count);
             other.gameObject.SetActive(false);
         }
-        */
+        
         /*
         // for necklace - not made yet
           if(other.gameObject.tag == "Weight")
