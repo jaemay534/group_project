@@ -1512,3 +1512,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 830.467833 seconds.
+  path: Assets/Script/switch_scene.cs
+  artifactKey: Guid(c99e60a8b02b7fd4e899530d1864d87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/switch_scene.cs using Guid(c99e60a8b02b7fd4e899530d1864d87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1bf2d11c025c62ba82ebc777611df0') in 0.032905 seconds 
+  Import took 0.036229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009213 seconds.
+  path: Assets/Script/switch_scene.cs
+  artifactKey: Guid(c99e60a8b02b7fd4e899530d1864d87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/switch_scene.cs using Guid(c99e60a8b02b7fd4e899530d1864d87f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1bf2d11c025c62ba82ebc777611df0') in 0.017618 seconds 
+  Import took 0.020597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.026779 seconds.
+  path: Assets/player spawn point.prefab
+  artifactKey: Guid(bd463820e15ea774dbe794830156dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/player spawn point.prefab using Guid(bd463820e15ea774dbe794830156dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc51085153da6bb8b770a7a4d3dc721') in 0.047622 seconds 
+  Import took 0.050934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.491670 seconds.
+  path: Assets/Premade Scene Stuff
+  artifactKey: Guid(5f482d42ee7d4204da818191b33ed5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Premade Scene Stuff using Guid(5f482d42ee7d4204da818191b33ed5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5180b25b6d1a154cdd4d268478b37ee3') in 0.020270 seconds 
+  Import took 0.023553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.879864 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(60784a3bf3dd454408de59a1075273f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(60784a3bf3dd454408de59a1075273f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53693084498f6b07537c795ec7e2f52') in 0.071495 seconds 
+  Import took 0.074673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003879 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(60784a3bf3dd454408de59a1075273f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(60784a3bf3dd454408de59a1075273f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53693084498f6b07537c795ec7e2f52') in 0.029648 seconds 
+  Import took 0.032753 seconds .
+
