@@ -107,11 +107,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7936352633929563089}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 887ad1d62596cdc4cb80b484e4271eb0, type: 3}
+  m_Script: {fileID: 11500000, guid: 4ddbc8cecff204c4da20c9e642e177b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backPoints: {fileID: 0}
-  forwardPoints: {fileID: 0}
+  backPoints: {fileID: 7936352635898502570}
+  forwardPoints: {fileID: 7936352635457776879}
   speed: 5
   goingBack: 1
 --- !u!1 &7936352635457776879

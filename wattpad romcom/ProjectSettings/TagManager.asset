@@ -12,6 +12,11 @@ TagManager:
   - Weights
   - final door
   - Exit
+  - Back&ForthEnemy
+  - NPCthree
+  - NPCtwo
+  - NPCfour
+  - NPCone
   layers:
   - Default
   - TransparentFX
