@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/first_room.unity
+    path: Assets/Scenes/ignore.unity
     guid: 2e05a7d44a1057c45ae5f7be1438ca5b
   - enabled: 1
     path: Assets/Scenes/second_room.unity

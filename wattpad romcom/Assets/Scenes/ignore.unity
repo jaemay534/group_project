@@ -706,6 +706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NPC2
       objectReference: {fileID: 0}
+    - target: {fileID: 8209298513123955683, guid: 2e066fa39bf0a2942ba3628385ccceb3, type: 3}
+      propertyPath: m_TagString
+      value: NPCtwo
+      objectReference: {fileID: 0}
     - target: {fileID: 8209298513123955695, guid: 2e066fa39bf0a2942ba3628385ccceb3, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1887,6 +1891,10 @@ PrefabInstance:
     - target: {fileID: 8209298513123955683, guid: 2e066fa39bf0a2942ba3628385ccceb3, type: 3}
       propertyPath: m_Name
       value: NPC3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8209298513123955683, guid: 2e066fa39bf0a2942ba3628385ccceb3, type: 3}
+      propertyPath: m_TagString
+      value: NPCthree
       objectReference: {fileID: 0}
     - target: {fileID: 8209298513123955695, guid: 2e066fa39bf0a2942ba3628385ccceb3, type: 3}
       propertyPath: m_RootOrder
