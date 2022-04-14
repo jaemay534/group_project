@@ -187,7 +187,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &2492472109625325160
 MonoBehaviour:
@@ -206,3 +206,4 @@ MonoBehaviour:
   gift_necklace_count: 0
   gift_bread_count: 0
   keys_count: 0
+  currentPlayerSpeed: 0
