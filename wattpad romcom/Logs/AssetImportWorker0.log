@@ -136,3 +136,4 @@ Received Import Request.
 Start importing Assets/Scenes/second_room.unity using Guid(2e05a7d44a1057c45ae5f7be1438ca5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119c03288400f95f607fda83d1b28060') in 0.025618 seconds 
   Import took 0.028041 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
