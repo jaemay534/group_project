@@ -18,6 +18,7 @@ TagManager:
   - NPCfour
   - NPCone
   - Necklace
+  - GoldCoins
   layers:
   - Default
   - TransparentFX
