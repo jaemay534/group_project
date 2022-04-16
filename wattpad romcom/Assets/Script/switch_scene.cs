@@ -5,11 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class switch_scene : MonoBehaviour
 {
-    public GameObject keys;
-    public GameObject player;
+    public GameObject protag;
     public GameObject mainCamera;
     private int currentScene;
-    public int keys_lock;
 
     public static switch_scene instance;
 
@@ -18,14 +16,14 @@ public class switch_scene : MonoBehaviour
     {
         
         instance = this;
-        DontDestroyOnLoad(player);
+        DontDestroyOnLoad(protag);
         DontDestroyOnLoad(mainCamera);
-        DontDestroyOnLoad(keys);
         DontDestroyOnLoad(this.gameObject);
         currentScene = SceneManager.GetActiveScene().buildIndex;
     }
 
     // Update is called once per frame
+
     void Update()
     {
         
@@ -41,4 +39,11 @@ public class switch_scene : MonoBehaviour
         currentScene++;
         SceneManager.LoadScene(currentScene);
     }
+
+    public void RestartScene(int sceneNumber)
+    {
+        //SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(sceneNumber);
+    }
+
 }

@@ -10,13 +10,14 @@ public class player : MonoBehaviour
 
     // ints for keys and Gifts
 
-    public int coins = 0;
+    public int coins_count = 0;
     public int gift_weight_count = 0;
     public int gift_necklace_count = 0;
     public int gift_bread_count = 0;
     public int keys_count = 0;
 
     public int currentPlayerSpeed;
+    public static player instance;
 
     // Start is called before the first frame update
     void Start()
@@ -63,7 +64,20 @@ public class player : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {   
-        //create if for coins 
+        //create if for coins
+        
+        if(other.gameObject.tag == "GoldCoins")
+        {
+            coins_count++;
+            print("Coins: " + coins_count);
+            other.gameObject.SetActive(false);
+           if (coins_count >= 8)
+           {
+                switch_scene.instance.RestartScene(0);
+           }
+          
+        }
+        
 
         // for key items
         if(other.gameObject.tag == "Treat")
@@ -91,12 +105,22 @@ public class player : MonoBehaviour
 
         if (other.gameObject.tag == "final door")
         {
-            print("I can't let you pass without the keys");
+
+            switch_scene.instance.loadNextScene();
+        
         }
 
-        if (other.tag == "exit")
+        if (other.tag == "Exit")
         {
-            switch_scene.instance.loadNextScene();
+            if (keys_count >= other.gameObject.GetComponent<exit>().keys_lock)
+            {
+                switch_scene.instance.loadNextScene();
+            }
+            else
+            {
+                print("Haha won't let you skip that easy.");
+            }
+            
         }
 
         // colliding with any enemies
@@ -208,4 +232,5 @@ public class player : MonoBehaviour
         GetComponent<MeshRenderer>().enabled = true;
         speed = currentPlayerSpeed;
     }
+
 }
