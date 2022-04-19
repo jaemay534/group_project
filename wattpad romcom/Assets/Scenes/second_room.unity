@@ -704,6 +704,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant (15)
@@ -778,6 +782,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant (7)
@@ -921,6 +929,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant (2)
@@ -1064,6 +1076,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant (16)
@@ -1176,6 +1192,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant (8)
@@ -1311,6 +1331,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4812870125832396996, guid: 58629e8387d3c4b459f6bfb26c174681, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 5949805625744811582, guid: 58629e8387d3c4b459f6bfb26c174681, type: 3}
       propertyPath: m_Name
       value: Cube (5)
@@ -1398,6 +1422,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant (4)
@@ -1528,6 +1556,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4812870125832396996, guid: 58629e8387d3c4b459f6bfb26c174681, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 5949805625744811582, guid: 58629e8387d3c4b459f6bfb26c174681, type: 3}
       propertyPath: m_Name
       value: Cube (4)
@@ -1546,6 +1578,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant
@@ -1854,7 +1890,7 @@ Transform:
   m_LocalScale: {x: 1.0416659, y: 0.2, z: 49.99999}
   m_Children: []
   m_Father: {fileID: 1524288225}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1038659000
 PrefabInstance:
@@ -2072,7 +2108,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3897396796773061676, guid: a7a6c330373a7e046859e009af50e35f, type: 3}
       propertyPath: timeBetweenShots
-      value: 3.5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3897396796773061677, guid: a7a6c330373a7e046859e009af50e35f, type: 3}
       propertyPath: m_Name
@@ -2097,6 +2133,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant (10)
@@ -2500,6 +2540,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant (9)
@@ -2574,6 +2618,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant (3)
@@ -2759,8 +2807,8 @@ Transform:
   - {fileID: 659907338}
   - {fileID: 1740559747}
   - {fileID: 1015082542}
-  - {fileID: 1029583015}
   - {fileID: 1836322111}
+  - {fileID: 1029583015}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2771,6 +2819,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant (5)
@@ -2850,6 +2902,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant (6)
@@ -2980,6 +3036,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4812870125832396996, guid: 58629e8387d3c4b459f6bfb26c174681, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 5949805625744811582, guid: 58629e8387d3c4b459f6bfb26c174681, type: 3}
       propertyPath: m_Name
       value: Cube (6)
@@ -3044,6 +3104,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant (17)
@@ -3186,7 +3250,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4015315513725832015, guid: 58629e8387d3c4b459f6bfb26c174681, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 4015315513725832015, guid: 58629e8387d3c4b459f6bfb26c174681, type: 3}
       propertyPath: m_LocalScale.x
@@ -3240,6 +3304,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4812870125832396996, guid: 58629e8387d3c4b459f6bfb26c174681, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 5949805625744811582, guid: 58629e8387d3c4b459f6bfb26c174681, type: 3}
       propertyPath: m_Name
       value: Cube (3)
@@ -3258,6 +3326,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant (1)
@@ -3337,6 +3409,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant (14)
@@ -3411,6 +3487,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant (13)
@@ -3485,6 +3565,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant (11)
@@ -3625,6 +3709,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524288225}
     m_Modifications:
+    - target: {fileID: 964268971335248623, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f7c5a2ca7a8a2f44b2a4c7fd6dd63c4, type: 2}
     - target: {fileID: 2106152821449157653, guid: 1eb48b0cbee24ad43be3d1eb0d40b7c8, type: 3}
       propertyPath: m_Name
       value: SmolCube (7) Variant (12)

@@ -23,15 +23,20 @@ public class player : MonoBehaviour
     void Start()
     {
         rigid_body = GetComponent<Rigidbody>();
+
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        move();
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        float moveVertical = Input.GetAxis("Vertical");
+        Vector3 movement = new Vector3(moveHorizontal, 0, moveVertical);
+        rigid_body.AddForce(movement * speed);
+
     }
 
-    void move()
+    /*void move()
     {
         Vector3 add_position = Vector3.zero;
 
@@ -61,6 +66,7 @@ public class player : MonoBehaviour
 
         GetComponent<Transform>().position += add_position;
     }
+    */
 
     void OnTriggerEnter(Collider other)
     {   
@@ -197,8 +203,7 @@ public class player : MonoBehaviour
         if (other.tag == "NPCfour")
         {
             if(keys_count >= other.gameObject.GetComponent<NPCs>().key)
-            {
-                      
+            {                      
                 print("I was supposed to be an artist, off in a little cottage in the woods. How did I even get here?");
                 print("They do this every day too, do they meet every morning to discuss rhymes...without me?");
                 print("I mean, I don't want to be here right? I don't care about them...");
@@ -232,5 +237,4 @@ public class player : MonoBehaviour
         GetComponent<MeshRenderer>().enabled = true;
         speed = currentPlayerSpeed;
     }
-
 }
