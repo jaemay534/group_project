@@ -21,8 +21,6 @@ public class player : MonoBehaviour
     public static player instance;
 
     //text elements
-    public Text keyText;
-    public Text coinText;
     public Text objectiveText;
 
 
@@ -31,8 +29,6 @@ public class player : MonoBehaviour
     void Start()
     {
         rigid_body = GetComponent<Rigidbody>();
-        SetKeyText();
-        SetCoinText();
         SetObjectiveText();
 
     }
@@ -47,38 +43,6 @@ public class player : MonoBehaviour
 
     }
 
-    /*void move()
-    {
-        Vector3 add_position = Vector3.zero;
-
-        // moving left
-        if (Input.GetKey("a"))
-        {
-            add_position += Vector3.left * Time.deltaTime * speed;
-        }
-
-        // moving right
-        if (Input.GetKey("d"))
-        {
-            add_position += Vector3.right * Time.deltaTime * speed;
-        }
-
-        // moving forward
-        if (Input.GetKey("w"))
-        {
-            add_position += Vector3.forward * Time.deltaTime * speed;
-        }
-
-        //moving backward
-        if (Input.GetKey("s"))
-        {
-            add_position += Vector3.back * Time.deltaTime * speed;
-        }
-
-        GetComponent<Transform>().position += add_position;
-    }
-    */
-
     void OnTriggerEnter(Collider other)
     {   
         //create if for coins
@@ -88,7 +52,6 @@ public class player : MonoBehaviour
             coins_count++;
             print("Coins: " + coins_count);
             other.gameObject.SetActive(false);
-            SetCoinText();
            if (coins_count >= 8)
            {
                 switch_scene.instance.RestartScene(0);
@@ -177,7 +140,6 @@ public class player : MonoBehaviour
                 print(" OH ho ho, look at you go.");
                 gift_necklace_count -= other.gameObject.GetComponent<NPCs>().necklace_lock;
                 keys_count++;
-                SetKeyText();
             }
             else
             {
@@ -192,7 +154,6 @@ public class player : MonoBehaviour
                 print(" OH ho ho, look at you go.");
                 gift_bread_count -= other.gameObject.GetComponent<NPCs>().bread_lock;
                 keys_count++;
-                SetKeyText();
             }
             else
             {
@@ -207,7 +168,7 @@ public class player : MonoBehaviour
                 print(" OH ho ho, look at you go.");
                 gift_weight_count -= other.gameObject.GetComponent<NPCs>().weight_lock;
                 keys_count++;
-                SetKeyText();
+
             }
             else
             {
@@ -225,7 +186,6 @@ public class player : MonoBehaviour
                 print("...I wanna be a part of the rhyme meetings...");
                 print("Well, thanks for listening to my worries, here's a key to continue your journey.");
                 keys_count++;
-                SetKeyText();
             }  
             else
             {
@@ -252,16 +212,6 @@ public class player : MonoBehaviour
         }
         GetComponent<MeshRenderer>().enabled = true;
         speed = currentPlayerSpeed;
-    }
-
-    void SetKeyText()
-    {
-        keyText.text = "Keys Count: " + keys_count.ToString();       
-    }
-
-    void SetCoinText()
-    {
-        coinText.text = "Coins Count: " + coins_count.ToString();
     }
 
     void SetObjectiveText()
