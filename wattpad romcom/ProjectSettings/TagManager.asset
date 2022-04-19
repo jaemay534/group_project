@@ -12,6 +12,13 @@ TagManager:
   - Weights
   - final door
   - Exit
+  - Back&ForthEnemy
+  - NPCthree
+  - NPCtwo
+  - NPCfour
+  - NPCone
+  - Necklace
+  - GoldCoins
   layers:
   - Default
   - TransparentFX
