@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class player : MonoBehaviour
 {
@@ -19,10 +20,20 @@ public class player : MonoBehaviour
     public int currentPlayerSpeed;
     public static player instance;
 
+    //text elements
+    public Text keyText;
+    public Text coinText;
+    public Text objectiveText;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         rigid_body = GetComponent<Rigidbody>();
+        SetKeyText();
+        SetCoinText();
+        SetObjectiveText();
 
     }
 
@@ -77,6 +88,7 @@ public class player : MonoBehaviour
             coins_count++;
             print("Coins: " + coins_count);
             other.gameObject.SetActive(false);
+            SetCoinText();
            if (coins_count >= 8)
            {
                 switch_scene.instance.RestartScene(0);
@@ -165,6 +177,7 @@ public class player : MonoBehaviour
                 print(" OH ho ho, look at you go.");
                 gift_necklace_count -= other.gameObject.GetComponent<NPCs>().necklace_lock;
                 keys_count++;
+                SetKeyText();
             }
             else
             {
@@ -179,6 +192,7 @@ public class player : MonoBehaviour
                 print(" OH ho ho, look at you go.");
                 gift_bread_count -= other.gameObject.GetComponent<NPCs>().bread_lock;
                 keys_count++;
+                SetKeyText();
             }
             else
             {
@@ -193,6 +207,7 @@ public class player : MonoBehaviour
                 print(" OH ho ho, look at you go.");
                 gift_weight_count -= other.gameObject.GetComponent<NPCs>().weight_lock;
                 keys_count++;
+                SetKeyText();
             }
             else
             {
@@ -210,6 +225,7 @@ public class player : MonoBehaviour
                 print("...I wanna be a part of the rhyme meetings...");
                 print("Well, thanks for listening to my worries, here's a key to continue your journey.");
                 keys_count++;
+                SetKeyText();
             }  
             else
             {
@@ -236,5 +252,20 @@ public class player : MonoBehaviour
         }
         GetComponent<MeshRenderer>().enabled = true;
         speed = currentPlayerSpeed;
+    }
+
+    void SetKeyText()
+    {
+        keyText.text = "Keys Count: " + keys_count.ToString();       
+    }
+
+    void SetCoinText()
+    {
+        coinText.text = "Coins Count: " + coins_count.ToString();
+    }
+
+    void SetObjectiveText()
+    {
+        objectiveText.text = "Talk to the soldiers to find the keys!".ToString();
     }
 }
