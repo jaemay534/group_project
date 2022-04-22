@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class player : MonoBehaviour
 {
@@ -19,10 +20,16 @@ public class player : MonoBehaviour
     public int currentPlayerSpeed;
     public static player instance;
 
+    //text elements
+    public Text objectiveText;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         rigid_body = GetComponent<Rigidbody>();
+        SetObjectiveText();
 
     }
 
@@ -35,38 +42,6 @@ public class player : MonoBehaviour
         rigid_body.AddForce(movement * speed);
 
     }
-
-    /*void move()
-    {
-        Vector3 add_position = Vector3.zero;
-
-        // moving left
-        if (Input.GetKey("a"))
-        {
-            add_position += Vector3.left * Time.deltaTime * speed;
-        }
-
-        // moving right
-        if (Input.GetKey("d"))
-        {
-            add_position += Vector3.right * Time.deltaTime * speed;
-        }
-
-        // moving forward
-        if (Input.GetKey("w"))
-        {
-            add_position += Vector3.forward * Time.deltaTime * speed;
-        }
-
-        //moving backward
-        if (Input.GetKey("s"))
-        {
-            add_position += Vector3.back * Time.deltaTime * speed;
-        }
-
-        GetComponent<Transform>().position += add_position;
-    }
-    */
 
     void OnTriggerEnter(Collider other)
     {   
@@ -193,6 +168,7 @@ public class player : MonoBehaviour
                 print(" OH ho ho, look at you go.");
                 gift_weight_count -= other.gameObject.GetComponent<NPCs>().weight_lock;
                 keys_count++;
+
             }
             else
             {
@@ -236,5 +212,10 @@ public class player : MonoBehaviour
         }
         GetComponent<MeshRenderer>().enabled = true;
         speed = currentPlayerSpeed;
+    }
+
+    void SetObjectiveText()
+    {
+        objectiveText.text = "Talk to the soldiers to find the keys!".ToString();
     }
 }
