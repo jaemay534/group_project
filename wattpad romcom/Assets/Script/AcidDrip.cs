@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AcidDrip : MonoBehaviour
 {
-    
+    //This code will drip then disapear
     // Update is called once per frame
     void Update()
     {

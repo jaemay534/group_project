@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PewPew : MonoBehaviour
 {
-
+    //gun enemy will shoot the laser
     [Header("Projectile Variables")]
     public float speed;
     public bool goingLeft;
